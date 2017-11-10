@@ -87,6 +87,15 @@ class ContaBanco
 		}
 	}
 
+	public function depositar($valor){
+		if ($this->getStatus()) {
+			$novoSaldo = $this->getSaldo() + $valor;
+			$this->setSaldo($novoSaldo);
+		} else {
+			echo "Conta está Fechada";
+		}
+	}
+
 
 }
 
