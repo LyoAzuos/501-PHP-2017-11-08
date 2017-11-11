@@ -1,0 +1,27 @@
+http://dontpad.com/lm/501/matriculas
+
+// Classe Aluno
+	atributos
+		nome;
+		email;
+	métodos
+		getNome - getNome() return $this->nome;
+		setNome - setNome($nome) $this->nome = $nome;
+		getEmail
+		setEmail
+// Classe Matricula
+	atributos
+		aluno - Aluno $aluno
+		turma - Turma $turma
+		nota1
+		nota2
+	métodos
+		gets E sets
+		verificarAprovado
+
+// Classe Turma
+	atributos
+		curso / pode ser só texto por enquanto
+		periodo / pode ser só texto por enquanto
+	metodos
+		gets E sets

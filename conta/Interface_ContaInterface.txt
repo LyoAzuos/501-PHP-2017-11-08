@@ -1,0 +1,29 @@
+// Interface ContaInterface
+
+	public function sacar();
+	public function depositar();
+	public function verSaldo();
+
+// ContaCorrente implements ContaInterface
+	
+	public function sacar(){
+
+	}
+	public function depositar(){
+	
+	}
+	public function verSaldo(){
+	
+	}
+
+// ContaPoupança implements ContaInterface
+	
+	public function sacar(){
+
+	}
+	public function depositar(){
+	
+	}
+	public function verSaldo(){
+	
+	}
