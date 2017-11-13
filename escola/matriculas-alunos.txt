@@ -21,7 +21,16 @@ http://dontpad.com/lm/501/matriculas
 
 // Classe Turma
 	atributos
-		curso / pode ser só texto por enquanto
+		curso - Curso $curso
 		periodo / pode ser só texto por enquanto
 	metodos
 		gets E sets
+// Classe Cursos
+	atributos
+		nome;
+		carga_horaria;
+		tipo;
+
+// Index
+	Chamar os namespaces;
+	Usar nossas Classes;
