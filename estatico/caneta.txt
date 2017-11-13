@@ -1,0 +1,14 @@
+// Classe Caneta
+	atributos
+		quantidade;
+		cor;
+		static tamanho;
+
+
+-------------------------------
+
+CanetaAzul = new Caneta();
+CanetaVerde = new Caneta();
+Caneta::tamanho = 10;
+CanetaPreta = new Caneta();
+CanetaVermelha = new Caneta();
