@@ -1,0 +1,14 @@
+class Pessoa
+	$nome
+	$genero
+	const GENEROS = [
+						'M' => 'Masculino',
+						'F' => 'Feminino'
+					];
+
+	construtor($nome, $genero) // M ou F
+
+	getNome()
+
+	getGenero()
+		// retornar Masculino ou Feminino;

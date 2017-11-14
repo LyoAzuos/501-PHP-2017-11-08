@@ -1,0 +1,13 @@
+// Titulo
+	$data = [];
+
+	__set
+
+	dt_vencimento
+	setVencimento()
+		Verificar se dt_vencimento é válido;
+
+	__get
+	valor
+	getValor()
+		calcular juros e multa do meu valor e retorná-lo.
