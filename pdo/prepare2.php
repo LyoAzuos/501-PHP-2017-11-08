@@ -1,7 +1,5 @@
 <?php 
 
-<?php 
-
 echo "<pre>";
 require_once 'conexao.php';
 
@@ -32,4 +30,3 @@ $values = [
 $result = $stmt->execute($values);
 
 var_dump($result);
-

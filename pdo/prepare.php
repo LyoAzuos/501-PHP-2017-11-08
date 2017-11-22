@@ -5,7 +5,7 @@ require_once 'conexao.php';
 
 $nome = "C++";
 $tipo = "Presencial";
-$carga_horaria = 80;
+$carga_horaria = 'aa';
 $requisitos = "Vontade de aprender";
 
 $sql = <<< SQL

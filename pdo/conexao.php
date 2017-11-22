@@ -15,4 +15,4 @@ $dsn  	= "pgsql: host={$host}; dbname={$dbname}";
 
 $con = new PDO($dsn, $user,$pass);
 
-// var_dump($con);
+$con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
